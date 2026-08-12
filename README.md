@@ -23,3 +23,7 @@ There is no package/dependency installation step -- this repository has no exter
 ## Environment Setup
 
 No environment variables, API keys, or secrets are required to work on this repository. If a future change introduces configuration, document required variable *names* here (never their values) and provide a `.env.example`-style template rather than committing real credentials.
+
+## Running the Project
+
+This repository does not yet contain an application entry point. Today, "running" the project means reviewing `README.md` and (optionally) running the validation script described in the Testing section below. Update this section with the real run command once application code is added.
