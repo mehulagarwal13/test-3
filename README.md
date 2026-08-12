@@ -2,7 +2,7 @@
 
 ## Introduction
 
-test-3 is a small example/test repository used to practice and verify real GitHub developer-onboarding workflows: prerequisites, setup, running, testing, and contributing. It is intentionally minimal so a new contributor can read through it end-to-end quickly.
+`test-3` is a small example/test repository used to practice and verify real GitHub developer-onboarding workflows: prerequisites, setup, running, testing, and contributing. It is intentionally minimal so a new contributor can read through it end-to-end quickly.
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ No environment variables, API keys, or secrets are required to work on this repo
 
 ## Running the Project
 
-This repository does not yet contain an application entry point. Today, "running" the project means reviewing `README.md` and (optionally) running the validation script described in the Testing section below. Update this section with the real run command once application code is added.
+This repository does not yet contain an application entry point. Today, "running" the project means reviewing this README and, optionally, running the validation script described in Testing. Update this section with the real run command once application code is added.
 
 ## Testing
 
@@ -36,10 +36,19 @@ python tests/validate_repo.py
 
 This runs a small, dependency-free script (`tests/validate_repo.py`) that confirms the repository's core documentation is present and non-empty.
 
+## Repository Structure
+
+```text
+test-3/
+├── README.md               # Project documentation (this file)
+└── tests/
+    └── validate_repo.py    # Onboarding validation / usage example script
+```
+
 ## Troubleshooting
 
 **`ModuleNotFoundError` or import errors running the validation script**
-The script only uses the Python standard library -- confirm you're invoking it with `python tests/validate_repo.py` from the repository root, not from inside `tests/`.
+The script only uses the Python standard library -- confirm you're invoking it with `python tests/validate_repo.py` from the repository root.
 
 **Git clone fails or times out**
 Confirm you have network access to GitHub and, if using SSH, that your SSH key is registered with your GitHub account.
@@ -50,3 +59,7 @@ Confirm you have network access to GitHub and, if using SSH, that your SSH key i
 2. Make small, focused commits with clear messages.
 3. Run `python tests/validate_repo.py` before opening a pull request.
 4. Open a pull request describing the change and link any related issue.
+
+## License
+
+No license has been specified yet. Add a `LICENSE` file before distributing this project externally.
