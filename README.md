@@ -10,3 +10,12 @@ test-3 is a small example/test repository used to practice and verify real GitHu
 - Python 3.9+ (only needed to run the lightweight validation script under `tests/`)
 
 No other tooling, services, or accounts are required to work on this repository.
+
+## Installation
+
+```bash
+git clone https://github.com/mehulagarwal13/test-3.git
+cd test-3
+```
+
+There is no package/dependency installation step -- this repository has no external dependencies.
