@@ -27,3 +27,11 @@ No environment variables, API keys, or secrets are required to work on this repo
 ## Running the Project
 
 This repository does not yet contain an application entry point. Today, "running" the project means reviewing `README.md` and (optionally) running the validation script described in the Testing section below. Update this section with the real run command once application code is added.
+
+## Testing
+
+```bash
+python tests/validate_repo.py
+```
+
+This runs a small, dependency-free script that confirms the repository's core documentation is present and non-empty.
