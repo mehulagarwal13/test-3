@@ -19,3 +19,7 @@ cd test-3
 ```
 
 There is no package/dependency installation step -- this repository has no external dependencies.
+
+## Environment Setup
+
+No environment variables, API keys, or secrets are required to work on this repository. If a future change introduces configuration, document required variable *names* here (never their values) and provide a `.env.example`-style template rather than committing real credentials.
