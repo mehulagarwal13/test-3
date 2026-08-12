@@ -34,4 +34,12 @@ This repository does not yet contain an application entry point. Today, "running
 python tests/validate_repo.py
 ```
 
-This runs a small, dependency-free script that confirms the repository's core documentation is present and non-empty.
+This runs a small, dependency-free script (`tests/validate_repo.py`) that confirms the repository's core documentation is present and non-empty.
+
+## Troubleshooting
+
+**`ModuleNotFoundError` or import errors running the validation script**
+The script only uses the Python standard library -- confirm you're invoking it with `python tests/validate_repo.py` from the repository root, not from inside `tests/`.
+
+**Git clone fails or times out**
+Confirm you have network access to GitHub and, if using SSH, that your SSH key is registered with your GitHub account.
