@@ -43,3 +43,10 @@ The script only uses the Python standard library -- confirm you're invoking it w
 
 **Git clone fails or times out**
 Confirm you have network access to GitHub and, if using SSH, that your SSH key is registered with your GitHub account.
+
+## Contributing
+
+1. Branch from the repository's default branch: `git checkout -b docs/<short-topic>`.
+2. Make small, focused commits with clear messages.
+3. Run `python tests/validate_repo.py` before opening a pull request.
+4. Open a pull request describing the change and link any related issue.
